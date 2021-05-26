@@ -1,23 +1,13 @@
-import logo from './logo.svg';
+import react,{useState} from 'react';
 import './App.css';
+import Covid from './component/Covid';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2> 🔴 Live</h2>
+      <h2>Covid 19 Tracker</h2>
+      <Covid />
     </div>
   );
 }

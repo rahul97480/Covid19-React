@@ -1,5 +1,6 @@
 {
   "name": "covid_tracker",
+  "homepage":"http://rahulgupta.ssdemo.xyz/React/CovidTracker",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
